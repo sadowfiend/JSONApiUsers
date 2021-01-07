@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.users{
+display: flex;
+    flex-wrap: wrap;
+}
+.users__list{
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    background: bisque;
+    padding: 20px;
+    margin: 5px;
+}
+.users__name{
+    font-size: 20px;
+    color: grey;
+}
+.users__login{
+    font-size: 18px;
+}
+.users__email{
+    color: red;
+    font-size: 12px;
+    text-align: right;
+}
